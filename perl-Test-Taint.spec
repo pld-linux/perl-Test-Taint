@@ -70,7 +70,9 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorarch}/Test
 %{perl_vendorarch}/Test/Taint.pm
+%dir %{perl_vendorarch}/auto/Test
 %dir %{perl_vendorarch}/auto/Test/Taint
 %{perl_vendorarch}/auto/Test/Taint/Taint.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Test/Taint/Taint.so

@@ -9,7 +9,7 @@ Summary:	Test::Taint - tools to test taintedness
 Summary(pl):	Test::Taint - narzêdzia do sprawdzania napiêtnowania
 Name:		perl-Test-Taint
 Version:	1.02
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Test
-%define	pnam	Taint
+%define		pdir	Test
+%define		pnam	Taint
 Summary:	Test::Taint - tools to test taintedness
 Summary(pl):	Test::Taint - narzêdzia do sprawdzania napiêtnowania
 Name:		perl-Test-Taint

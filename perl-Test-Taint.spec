@@ -8,13 +8,13 @@
 Summary:	Test::Taint - tools to test taintedness
 Summary(pl):	Test::Taint - narzêdzia do sprawdzania napiêtnowania
 Name:		perl-Test-Taint
-Version:	1.00
+Version:	1.02
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	fef3d4268fcefe471b2b46baeb8e36a6
+# Source0-md5:	ffd7c70c4c44e5b8124d8d291a5de802
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}

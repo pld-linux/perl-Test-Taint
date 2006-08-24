@@ -17,10 +17,6 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	a005ab5a2e22ab462b4f3661d1d1d5e0
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{with tests}
-#BuildRequires:	perl-Test-Pod-Coverage >= 0.08
-BuildRequires:	perl-Test-Pod >= 1.00
-%endif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

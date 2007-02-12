@@ -6,7 +6,7 @@
 %define		pdir	Test
 %define		pnam	Taint
 Summary:	Test::Taint - tools to test taintedness
-Summary(pl):	Test::Taint - narzêdzia do sprawdzania napiêtnowania
+Summary(pl.UTF-8):   Test::Taint - narzÄ™dzia do sprawdzania napiÄ™tnowania
 Name:		perl-Test-Taint
 Version:	1.04
 Release:	1
@@ -30,16 +30,16 @@ you'll want to have a way to provide tainted data for your routines to
 handle, and easy ways to check and report on the taintedness of your
 data, in standard Test::More style.
 
-%description -l pl
-Dane napiêtnowane to dane pochodz±ce z niebezpiecznego ¼ród³a, takiego
-jak linia poleceñ, lub, w przypadku aplikacji WWW, wszelkie transakcje
-GET i POST (na stronie podrêcznika perlsec(1) mo¿na znale¼æ
-dok³adniejsze informacje dlaczego dane napiêtnowane s± z³e i jak
-pozbyæ siê z nich piêtna).
+%description -l pl.UTF-8
+Dane napiÄ™tnowane to dane pochodzÄ…ce z niebezpiecznego ÅºrÃ³dÅ‚a, takiego
+jak linia poleceÅ„, lub, w przypadku aplikacji WWW, wszelkie transakcje
+GET i POST (na stronie podrÄ™cznika perlsec(1) moÅ¼na znaleÅºÄ‡
+dokÅ‚adniejsze informacje dlaczego dane napiÄ™tnowane sÄ… zÅ‚e i jak
+pozbyÄ‡ siÄ™ z nich piÄ™tna).
 
-Przy pisaniu testów jednostkowych dla kodu przetwarzaj±cego dane
-napiêtnowane zwykle chcemy móc dostarczyæ napiêtnowane dane do
-w³asnych funkcji i w ³atwy sposób sprawdziæ napiêtnowanie naszych
+Przy pisaniu testÃ³w jednostkowych dla kodu przetwarzajÄ…cego dane
+napiÄ™tnowane zwykle chcemy mÃ³c dostarczyÄ‡ napiÄ™tnowane dane do
+wÅ‚asnych funkcji i w Å‚atwy sposÃ³b sprawdziÄ‡ napiÄ™tnowanie naszych
 danych w standardowym stylu Test::More.
 
 %prep

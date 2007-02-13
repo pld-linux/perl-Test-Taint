@@ -6,7 +6,7 @@
 %define		pdir	Test
 %define		pnam	Taint
 Summary:	Test::Taint - tools to test taintedness
-Summary(pl.UTF-8):   Test::Taint - narzędzia do sprawdzania napiętnowania
+Summary(pl.UTF-8):	Test::Taint - narzędzia do sprawdzania napiętnowania
 Name:		perl-Test-Taint
 Version:	1.04
 Release:	1

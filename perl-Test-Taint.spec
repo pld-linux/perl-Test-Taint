@@ -8,13 +8,13 @@
 Summary:	Test::Taint - tools to test taintedness
 Summary(pl.UTF-8):	Test::Taint - narzędzia do sprawdzania napiętnowania
 Name:		perl-Test-Taint
-Version:	1.04
-Release:	7
+Version:	1.06
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a005ab5a2e22ab462b4f3661d1d1d5e0
+# Source0-md5:	cb639c250f2030262a562ce3376219b0
 URL:		http://search.cpan.org/dist/Test-Taint/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -73,4 +73,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/Test/Taint
 %{perl_vendorarch}/auto/Test/Taint/Taint.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Test/Taint/Taint.so
-%{_mandir}/man3/*
+%{_mandir}/man3/Test::Taint.3pm*

@@ -71,6 +71,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Test/Taint.pm
 %dir %{perl_vendorarch}/auto/Test
 %dir %{perl_vendorarch}/auto/Test/Taint
-%{perl_vendorarch}/auto/Test/Taint/Taint.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Test/Taint/Taint.so
 %{_mandir}/man3/Test::Taint.3pm*

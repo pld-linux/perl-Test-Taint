@@ -1,15 +1,15 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Test
 %define		pnam	Taint
+%include	/usr/lib/rpm/macros.perl
 Summary:	Test::Taint - tools to test taintedness
 Summary(pl.UTF-8):	Test::Taint - narzędzia do sprawdzania napiętnowania
 Name:		perl-Test-Taint
 Version:	1.06
-Release:	10
+Release:	11
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -67,9 +67,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%dir %{perl_vendorarch}/Test
 %{perl_vendorarch}/Test/Taint.pm
-%dir %{perl_vendorarch}/auto/Test
 %dir %{perl_vendorarch}/auto/Test/Taint
 %attr(755,root,root) %{perl_vendorarch}/auto/Test/Taint/Taint.so
 %{_mandir}/man3/Test::Taint.3pm*

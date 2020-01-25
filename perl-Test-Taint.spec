@@ -4,7 +4,6 @@
 
 %define		pdir	Test
 %define		pnam	Taint
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::Taint - tools to test taintedness
 Summary(pl.UTF-8):	Test::Taint - narzędzia do sprawdzania napiętnowania
 Name:		perl-Test-Taint
